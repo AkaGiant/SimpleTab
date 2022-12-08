@@ -1,0 +1,35 @@
+# This plugin is NOT designed to replace larger
+# more complex tab plugins, it's designed
+# to provide a simple method of integrating
+# a custom tab, tags and display name system
+# into your server.
+
+# I AM NOT AFFILIATED WITH THIS WEBSITE.
+# Tiny Text Generator: https://lingojam.com/TinyTextGenerator
+
+# Full Support for PlaceholderAPI Placeholders (/papi ecloud download <name here>, /papi reload)
+
+# Internal Placeholders:
+# [luckperms primary group prefix]
+# [luckperms primary group suffix]
+# [player name]
+# [player displayname]
+
+tab-formatting: "%luckperms_prefix% &8| %player_name%"
+override-team-message-command: true
+tab:
+  # Want to disable the custom tab? toggle it here :)
+  enabled: true
+  # How often should tab update (in seconds)
+  interval: 3
+  header:
+    - "     &8&m                                                                             &r     "
+    - "&b&lʏᴏᴜʀ sᴇʀᴠᴇʀ ɴᴀᴍᴇ ʜᴇʀᴇ"
+    - "&7ᴏɴʟɪɴᴇ &7%server_online%&8/&7%server_max_players%"
+    - "     &8&m                                                                             &r     "
+  footer:
+    - "     &8&m                                                                             &r     "
+    - "&7ᴡᴇʙsᴛᴏʀᴇ: ʏᴏᴜʀ ᴡᴇʙsᴛᴏʀᴇ ᴜʀʟ ʜᴇʀᴇ"
+    - "&7/ᴅɪsᴄᴏʀᴅ &8| &7/sᴛᴏʀᴇ"
+    - "&7ᴘɪɴɢ: %player_ping% | ᴛᴘs: %server_tps_1%"
+    - "     &8&m                                                                             &r     "
