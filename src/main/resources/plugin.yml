@@ -1,0 +1,10 @@
+name: SimpleTab
+version: '${project.version}'
+main: com.github.akagiant.simpletab.SimpleTab
+api-version: 1.19
+authors: [ AkaGiant ]
+website: https://github.com/AkaGiant
+description: SimpleTab System built with LuckPerms as a PermissionManager
+
+depend: [ LuckPerms ]
+softdepend: [ PlaceholderAPI ]
