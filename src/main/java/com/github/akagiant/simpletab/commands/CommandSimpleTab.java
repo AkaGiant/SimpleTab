@@ -2,12 +2,16 @@ package com.github.akagiant.simpletab.commands;
 
 import com.github.akagiant.simpletab.SimpleTab;
 import com.github.akagiant.simpletab.luckperms.TabManager;
-import com.github.akagiant.simpletab.util.ConfigUtil;
 import dev.jorel.commandapi.CommandAPICommand;
 import dev.jorel.commandapi.arguments.LiteralArgument;
+import me.akagiant.giantapi.util.ConfigUtil;
 
 public class CommandSimpleTab {
 
+	private CommandSimpleTab() {
+		//no instance
+	}
+	
 	public static void register() {
 		new CommandAPICommand("simpletab")
 			.withAliases("st")

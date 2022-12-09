@@ -124,7 +124,7 @@
         <dependency>
             <groupId>com.github.AkaGiant</groupId>
             <artifactId>GiantAPI</artifactId>
-            <version>0.1.32</version>
+            <version>dev-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

@@ -1,11 +1,8 @@
 package com.github.akagiant.simpletab.luckperms;
 
 import com.github.akagiant.simpletab.SimpleTab;
-import com.github.akagiant.simpletab.util.ConfigUtil;
-import com.github.akagiant.simpletab.util.InternalPlaceholderManager;
-import com.github.akagiant.simpletab.util.Logger;
-import jdk.jpackage.internal.Log;
 import me.akagiant.giantapi.util.ColorManager;
+import me.akagiant.giantapi.util.Logger;
 import net.luckperms.api.LuckPerms;
 import net.luckperms.api.LuckPermsProvider;
 import net.luckperms.api.model.group.Group;
@@ -81,7 +78,7 @@ public class TeamManager {
 			String key = (String) sortedGroups.keySet().toArray()[i];
 			if (teamExists(key)) continue;
 
-			Logger.toConsole("&fCreating Team &a" + key);
+			SimpleTab.logger.toConsole("&fCreating Team &a" + key);
 
 			Team team = scoreboard.registerNewTeam(i + "_" + key);
 			TeamManager.updateTeamPrefix(i + "_" + key);
