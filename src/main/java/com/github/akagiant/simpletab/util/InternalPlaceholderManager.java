@@ -18,8 +18,7 @@ public class InternalPlaceholderManager {
 
 		Map<String, Object> replaceableValues = new HashMap<>();
 		replaceableValues.put("[luckperms primary group prefix]", LuckPermsManager.getPrefixFromPlayer(player.getPlayer()));
-		replaceableValues.put("[luckperms primary group suffix]",
-			LuckPermsManager.getSuffixFromPlayer(player.getPlayer()));
+		replaceableValues.put("[luckperms primary group suffix]", LuckPermsManager.getSuffixFromPlayer(player.getPlayer()));
 		replaceableValues.put("[player name]", player.getName());
 		replaceableValues.put("[player displayname]", player.getPlayer().getDisplayName());
 

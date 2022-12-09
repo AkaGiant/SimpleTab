@@ -1,7 +1,7 @@
 package com.github.akagiant.simpletab.listeners;
 
 import com.github.akagiant.simpletab.SimpleTab;
-import com.github.akagiant.simpletab.util.ConfigUtil;
+import me.akagiant.giantapi.util.ConfigUtil;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
